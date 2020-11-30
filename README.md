@@ -16,5 +16,5 @@ Grupa studencka: WELE18DE1S1
 
 Zadanie 2-2-1
  W jaki sposób można określić czas trwania opóźnienia zrealizowanego z użyciem pętli?
- Odpowiedź:  Czas trwania opóźnienia zrealizowanego z użyciem pętli można określić za pomocą sprawdzenia  aktualnego czasu i zapamiętania go. Jeśli różnica między czasem zapamiętanym i aktualnym wynosi 1 sekundę to jest to ta zmiana. (Jeśli różnica między czasem aktualny, a poprzednio zapamiętanym jest mniejsza od 1 sekundy, to znaczy, że pożądany czas jeszcze nie upłynął) 
+ Odpowiedź:  Czas trwania opóźnienia zrealizowanego z użyciem pętli można określić za pomocą sprawdzenia  aktualnego czasu i zapamiętania go. Jeśli różnica między czasem zapamiętanym i aktualnym wynosi 1 sekundę to jest to ta zmiana. (Jeśli różnica między czasem aktualny, a poprzednio zapamiętanym jest mniejsza od 1 sekundy, to znaczy, że pożądany czas jeszcze nie upłynął). 
 
