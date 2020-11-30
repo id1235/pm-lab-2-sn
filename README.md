@@ -10,7 +10,7 @@ Data: 30.11.2020 r.
 
 Imię i nazwisko studenta: Maria Gromek 
 Numer albumu: 72529 
-Grupa studencka: WELE18DE1S1
+Grupa studencka: WELE18DE1S1 
 
 # Pytania do zadań z instrukcji
 
