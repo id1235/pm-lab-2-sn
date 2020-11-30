@@ -1,24 +1,26 @@
-#include <avr/io.h>
+#include <avr/ io.h>
+#define LED_LENGTH 8
 
-int main()
+int main ()
 {
-  uint32_t  i;
-
-DDRB  |= (1 << 5); // pinMode (13, OUTPUT);
+DDRD |= 0xFF; // Ustawiamy wsystkie wyprowadzenia portu D jako wyjścia
 while (1)
+{ / / Kierunke D0 - > D7
+for (uint8_t i=0; i < LED LENGTH; i++)
 {
- PORTB  |= (1 << 5); // digitalWrite( 13, HIGH);
-i = 0x3FFFF;
-do
+PORTD = (1 << i);
+for (uint32_t j= 0X1FFFF; j > 0; j --)
 {
-  __asm__  __ volatille __ ( "nop" );
-} while (i--);
-PORTB &=  ! (1 << 5); // digitalWrite (13, LOW);
-i = 0x3FFFF;
-do
+__asm__-__ volatille__ ("nop");
+}
+/ / Kierunek D6 -> D1
+for (uint8_t i = 1; i < ( LED_LENGTH - 1); I ++)
 {
-__ asm ____ volatile __("nop");;
-} while (i--);
+PORTD = (PORTD >> 1);
+for  (uint32_2 j= 0x1FFFF; j > 0; j--)
+{
+__asm__-__ volatile__ ("nop");
 }
 }
-
+}
+}
